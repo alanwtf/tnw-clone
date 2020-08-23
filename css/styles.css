@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prenav{
+    height: 30px;
+    background-color: #000;
+    font-size: 12px;
+    color: rgba(255,255,255,.8);
+}
+
+.prenav-list{
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.prenav-list > li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.sticky-nav{
+    position: sticky;
+}
+
+#navbar{
+    height: 50px;
+    background-color: #fff;
+    color: rgba(0,0,0,.3);
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.nav-list > li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.tnw-nav{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.countdown{
+    color: red;
+    font-size: 20px;
+}
+
+.tickets-btn{
+    background-color: rgb(0, 194, 194);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tickets-btn:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+
+.postnav{
+    background-color: rgb(248, 224, 10);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px 20px; 
+}
+
+.three-articles{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 5px 10px;
+    grid-gap: 10px;
+    height: 70vh;
+    
+}
+
+.big-article{
+    background-image: url("../assets/big-article.jpg");
+    grid-row: 1 / -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.small-article{
+    position: relative;
+}
+
+.small-article-1{
+    background-image: url("../assets/small-article-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.small-article-2{
+    background-image: url("../assets/small-article-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.link-to-art{
+    display:block;
+    width: 100%;
+    height: 90%;
+}
+
+.logo-article{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 120px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0;
+}
+
+.date-article{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.cover-header{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.cover-genre{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cover-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.cover-meta-info{
+    display: flex;
+}
+
+.meta-data{
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.small-article-genre{
+    font-size: 20px;
+}
+
+.small-article-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
+
