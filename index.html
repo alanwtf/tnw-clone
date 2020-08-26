@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="prenav flex-nav">
+        <div class="prenav flex-nav hide-mobile">
             <ul class="prenav-list">
                 <li class="bold">News</li>
                 <li>Events</li>
@@ -25,9 +25,11 @@
                 <li>Contact</li>
             </ul>
         </div>
-        <div class="sticky-nav">
-            <nav id="navbar" class="flex-nav">
-            <ul class="nav-list">
+        
+    </header>
+    <div class="sticky-nav">
+        <nav id="navbar" class="flex-nav">
+            <ul class="nav-list hide-mobile">
                 <li>LATEST</li>
                 <li>HARD FORK</li>
                 <li>PLUGGED</li>
@@ -36,25 +38,25 @@
                 <li>SHIFT</li>
                 <li>NEURAL</li>
             </ul>
-                <ul class="nav-list">
-                    <li>search</li>
-                    <li class="tnw-nav">TNW2020</li>
-                    <li class="countdown">COUNTDOWN</li>
-                    <li><button class="tickets-btn">GET TICKETS</button></li>
-                </ul>
-            </nav>
-            <div class="postnav">Join TNW2020, our 15th annual flagship event. Online. Get tickets</div>
-        </div>
-    </header>
+            <ul class="nav-list">
+                <li class="mobile-list">search</li>
+                <li class="tnw-nav hide-1114">TNW2020</li>
+                <li class="countdown hide-1114">COUNTDOWN</li>
+                <li><button class="tickets-btn hide-1114">GET TICKETS</button></li>
+                <li class="hide menu-hamburger mobile-list">MENU</li>
+            </ul>
+        </nav>
+        <div class="postnav">Join TNW2020, our 15th annual flagship event. Online. Get tickets</div>
+    </div>
     <main>
         <section class="three-articles">
             <div class="big-article">
                 <a href="#" class="link-to-art"></a>
-                <div class="logo-article">TNW</div>
-                <div class="date-article">Saturday bla bla</div>
+                <div class="logo-article hide-1024">TNW</div>
+                <div class="date-article hide-1024">Saturday bla bla</div>
                 <div class="cover-header">
-                    <div class="cover-genre">TECH</div>
-                    <div class="cover-title">Why computers will take over the world</div>
+                    <div class="cover-genre size-768-genre">TECH</div>
+                    <div class="cover-title size-768-title">Why computers will take over the world</div>
                     <div class="cover-meta-info">
                         <div class="meta-data">by Ben Dicks</div>
                         <div class="meta-data">10 miliseconds ago</div>
@@ -70,16 +72,475 @@
             </div>
             <div class="small-article small-article-2">
                 <div class="cover-header">
-                    <div class="small-article-genre">TECH</div>
-                    <div class="small-article-title">Why computers will take over the world</div>
+                    <div class="small-article-genre size-768-genre">TECH</div>
+                    <div class="small-article-title size-768-title">Why computers will take over the world</div>
                     <div class="cover-meta-info">
                         <div class="meta-data">by Ben Dicks</div>
                         <div class="meta-data">10 miliseconds ago</div>
-                        <div class="meta-data">shared icon</div>
+                        <div class="meta-data hide-1024-shared">shared icon</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="wrapper latest-news">
+            <h2 class="subtitle latest-subtitle">Latest news ></h2>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lastest-article">
+                <a href="#" class="latest-photo-anchor"><img src="assets/latest-photo.png" alt=""></a>
+                <div class="latest-flex">
+                    <a href="#" class="latest-title">This AI just found SOMETHING HUGE in a nuew planet</a>
+                    <div class="latest-author-date">
+                        <span class="latest-author">Thomas Macaulay -</span>
+                        <span class="latest-date">4 minutes ago</span>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="wrapper funding-rounds">
+            <h2 class="subtitle funding-subtitle">Latest funding round on Index.co ></h2>
+            <div class="algo">Add info | Get upadtes by email | See more</div>
+            <div class="funding">
+                <div class="funding-header">
+                    <img src="assets/funding.png" alt="" class="funding-img">
+                    <div class="funding-title">Songtradr</div>
+                    <div class="funding-money">
+                        <div class="funding-money-amount">$50M</div>
+                        <div class="funding-money-idk">Series C</div>
+                    </div>
+                    <div class="funding-item">Music, +3</div>
+                    <div class="funding-item last-funding-item">St baker Australian Family Office bla bla</div>
+                    <div class="funding-source">Songtradr Scores $30M In New Funding on hypebot</div>
+                </div>
+            </div>
+            <div class="funding">
+                <div class="funding-header">
+                    <img src="assets/funding.png" alt="" class="funding-img">
+                    <div class="funding-title">Songtradr</div>
+                    <div class="funding-money">
+                        <div class="funding-money-amount">$50M</div>
+                        <div class="funding-money-idk">Series C</div>
+                    </div>
+                    <div class="funding-item">Music, +3</div>
+                    <div class="funding-item last-funding-item">St baker Australian Family Office bla bla</div>
+                    <div class="funding-source">Songtradr Scores $30M In New Funding on hypebot</div>
+                </div>
+            </div>
+            <div class="funding">
+                <div class="funding-header">
+                    <img src="assets/funding.png" alt="" class="funding-img">
+                    <div class="funding-title">Songtradr</div>
+                    <div class="funding-money">
+                        <div class="funding-money-amount">$50M</div>
+                        <div class="funding-money-idk">Series C</div>
+                    </div>
+                    <div class="funding-item">Music, +3</div>
+                    <div class="funding-item last-funding-item">St baker Australian Family Office bla bla</div>
+                    <div class="funding-source">Songtradr Scores $30M In New Funding on hypebot</div>
+                </div>
+            </div>
+            <div class="funding last-funding">
+                <div class="funding-header">
+                    <img src="assets/funding.png" alt="" class="funding-img">
+                    <div class="funding-title">Songtradr</div>
+                    <div class="funding-money">
+                        <div class="funding-money-amount">$50M</div>
+                        <div class="funding-money-idk">Series C</div>
+                    </div>
+                    <div class="funding-item">Music, +3</div>
+                    <div class="funding-item last-funding-item">St baker Australian Family Office bla bla</div>
+                    <div class="funding-source">Songtradr Scores $30M In New Funding on hypebot</div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper genres">
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="genre">
+                <h3 class="subtitle">Hard Fork ></h3>
+                <img src="assets/ni-ganas.png" alt="" class="genre-img">
+                <div class="latest-new-genre">
+                    <div class="otro-div">
+                        <div>LATEST</div>
+                        <div class="latest-title-genre">Microsoft once owned a chunk of Apple, here’s what it would have been worth today</div>
+                    </div>
+                    <img src="assets/latest-img.png" alt="" class="genre-img latest-img-small">
+                </div>
+                <ul class="list-of-latest">
+                    <li>
+                        <a href="">4 ways to get you team to embrace feedback culture</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Ryanair CEO believes Bitcoin is a ponzi Scheme'</a>
+                    </li>
+                    <li>
+                        <a href="">Jack Dorsey Created a $1B COVID-19 relief fund, now it's got... $2.6B left?</a>
+                    </li>
+                    <li>
+                        <a href="">Satoshi Nakaboto: 'Bitcoin hovering above $10,000 for second-longest time ever</a>
+                    </li>
+                    <li>
+                        <a href="">How to find out if your boss doesn't like you -  and what to do about it</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="latest-deals wrapper">
+            <h2 class="subtitle deals-subtitle">Latest deals ></h2>
+            <div class="all-deals">See all deals</div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                <div class="mentiras"><span class="discount">$299</span>$25</div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="assets/latest-deal-img.jpg" alt="" class="genre-img">
+                <div class="grid-div">
+                    <div class="deal-title">The Complete Salesforce Trailhead 2020: From Zero to Hero 7-Course Bundle</div>
+                    <div class="mentiras"><span class="discount">$299</span>$25</div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+       <div class="social-media">A bunch of icons</div>
+       <div class="footer-nav">EVENTS ABOUT ADVERTISE JOBS CONTACT</div>
+       <div class="legal">
+        The Next Web © 2006–2020 The Next Web B.V. Made with love in Amsterdam. Powered by StackPath
+        </div>
+    </footer>
 </body>
 </html>
